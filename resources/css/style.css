@@ -1,0 +1,38 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid Seashell;
+  position: fixed;
+  z-index: 20;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.header nav {
+  margin-right: 15px;
+}
+
+.header nav span a {
+  text-decoration: underline;
+  color: Seashell;
+  padding-left: 10px;
+}
