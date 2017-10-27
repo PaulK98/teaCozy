@@ -2,14 +2,16 @@
 body {
   font-family: Helvetica;
   font-size: 22px;
-  color: Seashell;
   background-color: black;
   opacity: 0.9;
   text-align: center;
 }
 
-.all {
+h2, h4, h5, p, span, a {
   color: Seashell;
+}
+
+.all {
   opacity: 0.9;
   padding: 62px;
 }
@@ -41,7 +43,6 @@ body {
 
 .header nav span a {
   text-decoration: underline;
-  color: Seashell;
   padding-left: 10px;
 }
 
@@ -112,11 +113,22 @@ body {
 
 .loc-info {
   background-color: black;
-  color: Seashell;
   width: 300px;
   opacity: 1;
   display: flex;
   flex-direction: column;
-  margin: 40px 20px;
+  margin: 20px;
   padding: 10px;
+}
+
+/* Contact Section */
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+/* Footer */
+footer p {
+  text-align: left;
+  margin-left: 20px;
 }
