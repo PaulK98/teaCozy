@@ -58,3 +58,37 @@ body {
   background-color: black;
   width: 100%;
 }
+
+/* Tea of month Section */
+.tea-of-month {
+  position: relative;
+  top: 100px;
+  width: 1000px;
+  margin: auto;
+}
+
+.box {
+  padding: 5px;
+}
+
+.box span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.box img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Location Sections */
